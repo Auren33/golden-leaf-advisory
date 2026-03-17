@@ -1,0 +1,11 @@
+{
+  "name": "golden-leaf-advisory",
+  "version": "1.0.0",
+  "description": "Golden Leaf Advisory — Family Office Advisory Website",
+  "scripts": {
+    "start": "npx serve . -l 3000 --single"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
