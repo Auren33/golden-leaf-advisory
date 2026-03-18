@@ -416,12 +416,7 @@ a:hover {
   color: #c8d5cc;
 }
 
-/* Offset: alternate services for visual interest */
-@media (min-width: 768px) {
-  .service-item:nth-child(even) {
-    padding-left: clamp(var(--space-8), 6vw, var(--space-16));
-  }
-}
+
 
 /* ============================================
    ETHOS / PHILOSOPHY
