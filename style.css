@@ -390,9 +390,15 @@ a:hover {
 
 @media (min-width: 640px) {
   .service-item {
-    grid-template-columns: 1fr 1.4fr;
+    grid-template-columns: 280px 1fr;
     gap: var(--space-8);
-    align-items: baseline;
+    align-items: start;
+  }
+}
+
+@media (min-width: 960px) {
+  .service-item {
+    grid-template-columns: 340px 1fr;
   }
 }
 
@@ -409,6 +415,7 @@ a:hover {
   line-height: 1.7;
   color: var(--color-text-muted);
   max-width: 48ch;
+  padding-top: 0.15em;
 }
 
 [data-theme="dark"] .service-desc,
